@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Media Material Box w/out and w/ Caption</title>
+    </head>
+    <body>
+        <section>
+                <div>
+                    <h4 class="cyan-text text-darken-2">Material Box</h4>
+                    <img class="materialboxed" width="1348" src="images/pianocouple.jpg">
+                </div>
+                <br>
+                    <div class="row">
+                        <h4 class="grey-text text-darken-3">Material Box with Caption</h4>
+                        <div class="col s10 m8 offset-m2 16 offset-L3">
+                            <img class="materialboxed" data-caption="A picture of a Keyboard Instrument" width="250" src="images/img4.jpg">   
+                        </div>
+                    </div>
+        </section>
+
+    <!-- Jquery CDN -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+    <!-- Compiled and minified Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        
+        $(document).ready(function(){
+            // Material Box and Material Box with Caption Init //
+        $('.materialboxed').materialbox();
+        });
+    </script>
+    </body>
+</html>

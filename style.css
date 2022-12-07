@@ -1,0 +1,12 @@
+.collection {
+
+    margin: 0.5rem 0 1rem 0;                                           
+    border: 2px solid #502503;
+    border-radius:25px;
+    overflow: hidden;
+    position: relative;
+    padding: 1%;
+}
+h5 {
+    color: rgb(226, 17, 104);
+}

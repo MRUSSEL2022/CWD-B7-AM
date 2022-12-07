@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title>Media Fullscreen Slider with Caption</title>
+    </head>
+    <body>
+        <section>
+                    <div class="slider fullscreen">
+                        <ul class="slides">
+                            <li>
+                                <img src="images/pianocouple.jpg"> <!-- random image -->
+                                    <div class="caption center-align">
+                                        <h3>Keyboardist Life</h3>
+                                        <h5 class="light grey-text text-lighten-3">With couple</h5>
+                                    </div>
+                            </li>
+                            <li>
+                                <img src="images/stagep1.jpg"> <!-- random image -->
+                                    <div class="caption left-align">
+                                        <h3>Keyboardist Life</h3>
+                                        <h5 class="light grey-text text-lighten-3">In Gig</h5>
+                                    </div>
+                            </li>
+                            <li>
+                                <img src="images/stagep2.jpg"> <!-- random image -->
+                                    <div class="caption right-align">
+                                        <h3>Keyboardist Life</h3>
+                                        <h5 class="light grey-text text-lighten-3">In church</h5>
+                                    </div>
+                            </li>
+                            <li>
+                                <img src="images/stagep3.jpg"> <!-- random image -->
+                                    <div class="caption center-align">
+                                        <h3>Keyboardist Life</h3>
+                                        <h5 class="light grey-text text-lighten-3">In Recital</h5>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
+        </section>
+
+    <!-- Jquery CDN -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous">
+    </script>
+    <!-- Compiled and minified Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            // Fullscreen Slider with Caption Init //
+        $('.slider').slider();
+        });
+    </script>
+    </body>
+</html>

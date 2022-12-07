@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Collections 2</title>
+    </head>
+    <body>
+        <!-- Basic -->
+        <div class="container">
+            <h2 class="cyan-text text-darken-3">Collections 2</h2>
+            <br>
+            <h4 class="brown-text text-darken-1">BASIC</h4>
+            <ul class="collection">
+                <li class="collection-item">Russel 1</li>
+                <li class="collection-item">Russel 2</li>
+                <li class="collection-item">Russel 3</li>
+                <li class="collection-item">Russel 4</li>
+            </ul>
+        </div>
+        <!-- links -->
+        <div class="container">
+            <h4 class="pink-text text-darken2">LINKS</h4>
+                <div class="collection">
+                    <a href="#!" class="collection-item">Russel 1</a>
+                    <a href="#!" class="collection-item">Russel 2</a>
+                    <a href="#!" class="collection-item">Russel 3</a>
+                    <a href="#!" class="collection-item active">Russel 4</a>
+                </div>
+        </div>
+
+        <!-- Floating Action Button -->
+        
+        <div class="fixed-action-btn toolbar direction-top active">
+            
+        <a href="" class="btn btn-floating btn-large orange accent-2 pulse">
+            <i class="material-icons">navigation</i>
+        </a>
+        <ul>
+            <li>
+                <a href="#!" class="btn-floating">
+                    <i class="material-icons">place</i>
+                </a>
+            </li>
+            <li>
+                <a href="#!" class="btn-floating">
+                    <i class="material-icons">phone</i>
+                </a>
+            </li>
+            <li>
+                <a href="#!" class="btn-floating">
+                    <i class="material-icons">mail</i>
+                </a>
+            </li>
+        </ul>
+        </div>                              
+        <!-- scrollable  -->
+    <div style="height: 500px;"></div>
+    <!-- Jquery CDN -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+    <!-- Compiled and minified Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        // Floating Action Button Init //
+        $(document).ready(function(){
+            $('.fixed-action-btn').floatingActionButton({
+    toolbarEnabled: true
+    });
+    });
+    </script>
+    </body>
+</html>
